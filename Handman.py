@@ -5,6 +5,7 @@ def hangman():
     word_list = ["парадная","поляна","смехмыст","дилла", "actions", "]
     random_number = random.randint(0, 20)
     word = word_list[random_number]
+    word = input("Загадай слово или фразу")
     wrong_guesses = 0
     stages = ["", 
                 "________      ", 
