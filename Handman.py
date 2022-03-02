@@ -2,7 +2,9 @@ import random
 
 
 def hangman():
-    word = input('Загадай слово\n')
+    word_list = ["парадная","поляна","смехмыст","дилла", "actions", "]
+    random_number = random.randint(0, 20)
+    word = word_list[random_number]
     wrong_guesses = 0
     stages = ["", 
                 "________      ", 
